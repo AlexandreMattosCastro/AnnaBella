@@ -4,4 +4,16 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Views\Home\Privacy.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Imagens\capa.png" />
+    <None Include="wwwroot\Imagens\foto1.png" />
+    <None Include="wwwroot\Imagens\foto2.png" />
+    <None Include="wwwroot\Imagens\foto3.png" />
+    <None Include="wwwroot\Imagens\fundo.png" />
+  </ItemGroup>
+
 </Project>
