@@ -1,19 +1,16 @@
-﻿using AnnaBella.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace AnnaBella.Controllers
 {
-    public class HomeController : Controller
+    public class BiografiasController : Controller
     {
         public IActionResult Index()
         {
-            ViewData["Title"] = "Home";
+            ViewData["Title"] = "Biografia";
 
             return View();
         }
